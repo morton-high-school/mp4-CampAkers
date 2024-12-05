@@ -120,6 +120,8 @@ public class IntArrayMethodsAutograder{
     boolean b = IntArrayMethods.arrayMode(a2)==5;
     if(!a){
       System.out.println("Failed arrayMode test 1.");
+      System.out.println(IntArrayMethods.arrayMode(a1));
+
     }
     if(!b){
       System.out.println("Failed arrayMode test 2.");
